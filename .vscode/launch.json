@@ -1,0 +1,206 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+
+        
+        {
+            "type": "java",
+            "name": "decimalTobinary",
+            "request": "launch",
+            "mainClass": "numbersystem.decimalTobinary",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "binaryTodecimal",
+            "request": "launch",
+            "mainClass": "numbersystem.binaryTodecimal",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "bitwiseoperator",
+            "request": "launch",
+            "mainClass": "bitwiseoperator",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "calculater",
+            "request": "launch",
+            "mainClass": "calculater",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "doublle",
+            "request": "launch",
+            "mainClass": "doublle",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "leapyear",
+            "request": "launch",
+            "mainClass": "leapyear",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "oddeven",
+            "request": "launch",
+            "mainClass": "oddeven",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "perof5sub",
+            "request": "launch",
+            "mainClass": "perof5sub",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "printingno",
+            "request": "launch",
+            "mainClass": "printingno",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "readchar",
+            "request": "launch",
+            "mainClass": "readchar",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "realtionaloperaot",
+            "request": "launch",
+            "mainClass": "realtionaloperaot",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "simpleinterest",
+            "request": "launch",
+            "mainClass": "simpleinterest",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "sumof2number",
+            "request": "launch",
+            "mainClass": "sumof2number",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "takeinput",
+            "request": "launch",
+            "mainClass": "takeinput",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "unaryoperator",
+            "request": "launch",
+            "mainClass": "unaryoperator",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "type": "java",
+            "name": "weeknamebyswitch",
+            "request": "launch",
+            "mainClass": "weeknamebyswitch",
+            "projectName": "coding_a102caa0"
+        },
+        {
+            "name": "C/C++: gcc.exe build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc.exe build active file"
+        }
+    ]
+}
